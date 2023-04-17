@@ -14,7 +14,7 @@ compatibility for more information.
 - `format` : `string` - Decompression format
 
 ### Returns
-- `Blob` - Decompressed blob object
+- `Promise<Blob>` - Decompressed blob object
 
 ### Function
 - [decompress_blob.js](./decompress_blob.js)
