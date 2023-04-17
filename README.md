@@ -1,4 +1,5 @@
 # Data-Compression
+Data compression/decompression in JavaScript.
 
 ## Decompress
 
