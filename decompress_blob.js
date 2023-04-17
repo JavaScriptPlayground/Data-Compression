@@ -4,7 +4,7 @@
  * 
  * [MDN Reference](https://developer.mozilla.org/en-US/docs/Web/API/Compression_Streams_API#browser_compatibility)
  * @param {Blob} compressedBlob Compressed blob object
- * @param {string} format Decompression format
+ * @param {string} format Decompression format (`gzip` | `deflate` | `deflate-raw`)
  * @returns {Blob} Decompressed blob object
  */
 export function decompressBlob(compressedBlob = new Blob(), format = 'gzip') {
