@@ -3,20 +3,21 @@ Data compression/decompression in JavaScript.
 
 ## Decompress
 
-### Description
+### decompress_blob.js
+#### Description
 This function decompresses a compressed blob object. This function may not work under Firefox. Check browser
 compatibility for more information.
  
 [MDN Reference](https://developer.mozilla.org/en-US/docs/Web/API/Compression_Streams_API#browser_compatibility)
 
-### Parameters
+#### Parameters
 - `compressedBlob` : `Blob` - Compressed blob object
 - `format` : `string` - Decompression format
 
-### Returns
+#### Returns
 - `Promise<Blob>` - Decompressed blob object
 
-### Function
+#### Function
 - [decompress_blob.js](./decompress_blob.js)
 
 ```js
