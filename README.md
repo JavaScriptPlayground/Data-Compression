@@ -16,6 +16,8 @@ compatibility for more information.
 - `Blob` - Decompressed blob object
 
 ### Function
+- [decompress_blob.js](./decompress_blob.js)
+
 ```js
 export function decompressBlob(compressedBlob = new Blob(), format = 'gzip') {
     const ds = new DecompressionStream(format);
